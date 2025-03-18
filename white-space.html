@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <title>White-Space</title>
+        <style>
+            .normal {
+                white-space: normal;
+                border: 1px solid black;
+                width: 300px;
+                padding: 10px;
+            }
+
+            .nowrap {
+                white-space: nowrap;
+                border: 1px solid black;
+                width: 300px;
+                padding: 10px;
+            }
+
+            .pre {
+                white-space: pre;
+                border: 1px solid black;
+                width: 300px;
+                padding: 10px;
+            }
+
+            .pre-wrap {
+                white-space: pre-wrap;
+                border: 1px solid black;
+                width: 300px;
+                padding: 10px;
+            }
+
+            .pre-line {
+                white-space: pre-line;
+                border: 1px solid black;
+                width: 300px;
+                padding: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <h3>white-space: normal (default)</h3>
+        <p class="normal">
+            Ini adalah contoh white-space normal.        Spasi tambahan akan diabaikan dan teks akan wrap secara otomatis jika panjang.
+        </p>
+
+        <h3>white-space: nowrap</h3>
+        <p class="nowrap">
+            Ini adalah contoh white-space nowrap. Spasi tambahan akan diabaikan dan teks tidak akan pindah baris meskipun panjang.
+        </p>
+
+        <h3>white-space: pre</h3>
+        <p class="pre">
+            Ini adalah contoh white-space pre.
+            Spasi tambahan akan tetap ada
+            dan teks tidak akan wrap secara otomatis.
+        </p>
+
+        <h3>white-space: pre-wrap</h3>
+        <p class="pre-wrap">
+            Ini adalah contoh white-space pre-wrap.  
+            Spasi tambahan tetap ada,   
+            tetapi teks tetap akan wrap jika terlalu panjang.
+        </p>
+
+        <h3>white-space: pre-line</h3>
+        <p class="pre-line">
+            Ini adalah contoh white-space pre-line.  
+            Spasi tambahan akan dihapus,  
+            tetapi baris baru tetap dipertahankan.
+        </p>
+    </body>
+</html>
