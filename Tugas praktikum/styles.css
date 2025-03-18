@@ -1,0 +1,98 @@
+body{
+    background-color: lightgray;
+}
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(bg/KTR\ LOGO\ BLACK.png);
+    background-position: center;
+    background-size: 338px;
+    opacity: 0.3; 
+    z-index: -1; 
+}
+header{
+    background-image: url(bg/header.jpg);
+    background-size: 100%;
+}
+.p{
+    text-align: right;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 5px;
+    font-size: large;
+}
+.web{
+    margin-left: 150px;
+    margin-right: 150px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: rgb(172, 172, 172);
+}
+
+nav { overflow: hidden; background-color: #333;
+text-align: center;
+padding: 10px;}
+
+nav a { 
+    font-size: 20px; 
+    color: white; text-align: center; 
+    padding: 14px 16px; text-decoration: none; }
+
+nav a:hover {
+    background-color: white;
+    color: #333;
+    
+}
+.t{
+    padding: 20px;
+}
+.co{
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    align-items: flex-start
+}
+aside {
+    width: 50%;
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+aside ul {
+    list-style: none;
+    padding: 0;
+}
+
+aside ul li {
+    padding: 5px 0;
+}
+
+aside a {
+    text-decoration: none;
+    color: #333;
+}
+
+aside a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+footer{
+    padding: 20px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+    color: blue;
+}
